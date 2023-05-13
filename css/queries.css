@@ -1,0 +1,249 @@
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+  .nav-info {
+    display: none;
+  }
+  .mobile-nav-btn {
+    display: block;
+  }
+
+  .nav-open .mobile-nav-bar {
+    height: 30rem;
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .mobile-nav-btn [name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-open .mobile-nav-btn [name="close-outline"] {
+    display: block;
+  }
+
+  .about {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-numbers--1 {
+    margin-top: 2rem;
+    height: 15rem;
+    width: 25rem;
+  }
+  .about-numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0rem;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+
+  .about-photo {
+    margin-top: 5rem;
+  }
+
+  .rooms {
+    margin-top: 5rem;
+  }
+
+  .room-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5rem;
+  }
+
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5rem;
+  }
+
+  .team-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-info {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 5rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 56em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .about {
+    margin-top: 0;
+  }
+  .luxury-living {
+    height: 40rem;
+    column-gap: 0;
+  }
+  .luxury-photo {
+    height: 40rem;
+  }
+  .luxury-text-container {
+    padding: 4rem 3rem;
+  }
+
+  .luxury-living-btn-container .btn {
+    width: 14rem;
+    height: 5rem;
+    font-size: 1.5rem;
+  }
+  .luxury-living-btn-container {
+    justify-content: center;
+  }
+  .team-gallery {
+    justify-items: center;
+  }
+
+  .team-photo-card {
+    width: 20rem;
+    height: 29rem;
+  }
+
+  .team-photo-card img {
+    width: 20rem;
+    height: auto;
+  }
+
+  .team-gallery-text {
+    padding-bottom: 0;
+    transform: translate(0, -30%);
+  }
+
+  .team-social-media {
+    transform: translate(12%, -70%);
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  html {
+    font-size: 45%;
+  }
+  .about-numbers--1 {
+    width: 17rem;
+    height: 15rem;
+  }
+
+  .about-numbers--1 .fa-2x {
+    font-size: 1.5em;
+  }
+
+  .about-numbers--1 .general-heading {
+    font-size: 2.4rem;
+  }
+
+  .room-card {
+    width: 30rem;
+    height: 44rem;
+  }
+  .room-name {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  .room-icons {
+    gap: 2rem;
+    font-size: 1.5rem;
+  }
+  .room-text {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+
+  .room-btn {
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .service-card {
+    height: 25rem;
+    width: 25rem;
+    padding: 1rem 2rem;
+  }
+
+  .footer-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .general-heading {
+    font-size: 3rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .hero {
+    height: 60rem;
+  }
+  .container {
+    padding: 3rem 6rem;
+  }
+
+  .about-text {
+    padding-top: 2rem;
+  }
+
+  .room-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .luxury-living {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .services {
+    margin-top: 50rem;
+  }
+
+  .service-card {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .service-card .fa-2x {
+    font-size: 1em;
+  }
+
+  .service-icon {
+    margin-bottom: 1rem;
+  }
+  .service-heading {
+    font-size: 1.6rem;
+    margin-bottom: 0.7rem;
+  }
+  .service-paragraph {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+  .general-heading {
+    font-size: 2.5rem;
+  }
+
+  .about .container {
+    padding: 2rem 3rem;
+  }
+
+  .luxury-living {
+    row-gap: 0;
+  }
+}

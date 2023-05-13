@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Roadside an hotel that ensures your comfort in your journey. We have all the facilities and services with trained staffs so you can enjoy your stay!"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo.png" />
+    <link rel="apple-touch-icon" href="img/logo_apple_touch_icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1b1278270a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+    <title>Roadside</title>
+  </head>
+
+  <body>
+    <!-- 
+    *********************
+    -----NAVIGATION------
+    ********************* 
+    -->
+    <header class="header">
+      <nav class="nav-bar">
+        <div>
+          <a href="#"><h3 class="nav-logo">Roadside</h3></a>
+        </div>
+        <div class="nav-info">
+          <div class="nav-contacts-container">
+            <div class="nav-contacts">
+              <div>
+                <i class="fa-solid fa-envelope" style="color: #fea116"></i>
+                <span>info@example.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone" style="color: #fea116"></i>
+                <span>+012 345 6789</span>
+              </div>
+            </div>
+
+            <div class="nav-social-media">
+              <div class="nav-social-media--icon">
+                <a href="" class="nav-icon-link"
+                  ><i class="fa-brands fa-facebook-f" style="color: #fea116"></i
+                ></a>
+                <a href="" class="nav-icon-link"
+                  ><i class="fa-brands fa-twitter" style="color: #fea116"></i
+                ></a>
+                <a href="" class="nav-icon-link"
+                  ><i class="fa-brands fa-instagram" style="color: #fea116"></i
+                ></a>
+                <a href="" class="nav-icon-link"
+                  ><i class="fa-brands fa-youtube" style="color: #fea116"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <ul class="nav-links">
+            <div class="nav-links">
+              <li class="nav-link"><a href="#home">HOME</a></li>
+              <li class="nav-link"><a href="#about">ABOUT</a></li>
+              <li class="nav-link"><a href="#services">SERVICES</a></li>
+              <li class="nav-link"><a href="#rooms">ROOMS</a></li>
+              <li class="nav-link"><a href="#">PAGES</a></li>
+              <li class="nav-link"><a href="#contact">CONTACT</a></li>
+            </div>
+            <div>
+              <li class="nav-link"><button nav-btn>JOIN US</button></li>
+            </div>
+          </ul>
+        </div>
+        <button class="mobile-nav-btn">
+          <i class="fa-solid fa-bars" name="menu-outline"></i>
+          <i class="fa-solid fa-x" name="close-outline"></i>
+        </button>
+      </nav>
+
+      <!-- *******************
+      -----MOBILE NAV-----
+      ******************* -->
+
+      <div class="mobile-nav-bar">
+        <li class="nav-link"><a href="#">HOME</a></li>
+        <li class="nav-link"><a href="#about">ABOUT</a></li>
+        <li class="nav-link"><a href="#services">SERVICES</a></li>
+        <li class="nav-link"><a href="#rooms">ROOMS</a></li>
+        <li class="nav-link"><a href="#pages">PAGES</a></li>
+        <li class="nav-link"><a href="#contact">CONTACT</a></li>
+      </div>
+    </header>
+    <!-- ************************
+      ----section HERO-------
+      ************************ -->
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <div class="hero-head">
+            <p class="sub-heading hero-sub-heading">LUXURY LIVING</p>
+            <h1 class="hero-heading">
+              Discover A Brand <br />
+              Luxurious Hotel
+            </h1>
+          </div>
+          <div class="hero-btn">
+            <div>
+              <button class="btn btn--1">OUR ROOMS</button>
+            </div>
+            <div>
+              <button class="btn btn--2">BOOK A ROOM</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ************************
+      ----section ABOUT-------
+      ************************ -->
+
+      <section id="about" class="about">
+        <div class="about container grid grid-col--2">
+          <div class="about-text">
+            <p class="general-sub-heading">ABOUT US</p>
+            <h1 class="general-heading">Welcome to <span>ROADSIDE</span></h1>
+            <p class="general-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Aspernatur recusandae ex nesciunt perferendis corrupti magni
+              nostrum suscipit excepturi unde eius.
+            </p>
+
+            <div class="about-numbers">
+              <div class="about-numbers--1">
+                <i class="fa-solid fa-2x fa-hotel" style="color: #fea116"></i>
+                <p class="general-heading">68</p>
+                <p>Rooms</p>
+              </div>
+              <div class="about-numbers--1">
+                <i
+                  class="fa-solid fa-2x fa-users-gear"
+                  style="color: #fea116"
+                ></i>
+                <p class="general-heading">18</p>
+                <p>Staffs</p>
+              </div>
+              <div class="about-numbers--1">
+                <i class="fa-solid fa-2x fa-users" style="color: #fea116"></i>
+                <p class="general-heading">2000</p>
+                <p>Clients</p>
+              </div>
+            </div>
+
+            <div class="about-btn">
+              <button class="btn">Explore More</button>
+            </div>
+          </div>
+
+          <div class="about-photo grid grid-col--2">
+            <div class="about-photo--1">
+              <img
+                src="img/about-1.jpg"
+                alt=""
+                class="about-img about-img--1"
+              />
+            </div>
+            <div class="about-photo--2">
+              <img
+                src="img/about-2.jpg"
+                alt=""
+                class="about-img about-img--2"
+              />
+            </div>
+            <div class="about-photo--3">
+              <img
+                src="img/about-3.jpg"
+                alt=""
+                class="about-img about-img--3"
+              />
+            </div>
+            <div class="about-photo--4">
+              <img
+                src="img/about-4.jpg"
+                alt=""
+                class="about-img about-img--4"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ************************
+      ----section ROOMS-------
+      ************************ -->
+
+      <section id="rooms" class="rooms">
+        <div class="room-heading">
+          <p class="bar-sub-heading">OUR ROOMS</p>
+          <h1 class="general-heading">Explore Our <span>Rooms</span></h1>
+        </div>
+        <div class="room-card-container">
+          <div class="room-card">
+            <div class="room-img-container">
+              <img class="room-img" src="img/room-1.jpg" alt="" />
+              <div class="room-price">$100/Night</div>
+            </div>
+            <div class="room-details">
+              <h3 class="room-name">Junior Suite</h3>
+              <div class="room-icons">
+                <div class="room-bed">
+                  <i class="fa-solid fa-bed" style="color: #fea116"></i>3 Bed
+                </div>
+                <div class="room-icon--bar room-bath">
+                  <i class="fa-solid fa-bath" style="color: #fea116"></i>2 Bath
+                </div>
+                <div class="room-icon--bar room-wifi">
+                  <i class="fa-solid fa-wifi" style="color: #fea116"></i>Wifi
+                </div>
+              </div>
+              <div class="room-text">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi sunt asperiores, unde sit dicta quas.
+                </p>
+              </div>
+
+              <div class="room-btn-container">
+                <button class="room-btn room-btn1">VIEW DETAILS</button>
+                <button class="room-btn room-btn2">BOOK NOW</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="room-card">
+            <div class="room-img-container">
+              <img class="room-img" src="img/room-1.jpg" alt="" />
+              <div class="room-price">$100/Night</div>
+            </div>
+            <div class="room-details">
+              <h3 class="room-name">Junior Suite</h3>
+              <div class="room-icons">
+                <div class="room-bed">
+                  <i class="fa-solid fa-bed" style="color: #fea116"></i>3 Bed
+                </div>
+                <div class="room-icon--bar room-bath">
+                  <i class="fa-solid fa-bath" style="color: #fea116"></i>2 Bath
+                </div>
+                <div class="room-icon--bar room-wifi">
+                  <i class="fa-solid fa-wifi" style="color: #fea116"></i>Wifi
+                </div>
+              </div>
+              <div class="room-text">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi sunt asperiores, unde sit dicta quas.
+                </p>
+              </div>
+
+              <div class="room-btn-container">
+                <button class="room-btn room-btn1">VIEW DETAILS</button>
+                <button class="room-btn room-btn2">BOOK NOW</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="room-card">
+            <div class="room-img-container">
+              <img class="room-img" src="img/room-1.jpg" alt="" />
+              <div class="room-price">$100/Night</div>
+            </div>
+            <div class="room-details">
+              <h3 class="room-name">Junior Suite</h3>
+              <div class="room-icons">
+                <div class="room-bed">
+                  <i class="fa-solid fa-bed" style="color: #fea116"></i>3 Bed
+                </div>
+                <div class="room-icon--bar room-bath">
+                  <i class="fa-solid fa-bath" style="color: #fea116"></i>2 Bath
+                </div>
+                <div class="room-icon--bar room-wifi">
+                  <i class="fa-solid fa-wifi" style="color: #fea116"></i>Wifi
+                </div>
+              </div>
+              <div class="room-text">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi sunt asperiores, unde sit dicta quas.
+                </p>
+              </div>
+
+              <div class="room-btn-container">
+                <button class="room-btn room-btn1">VIEW DETAILS</button>
+                <button class="room-btn room-btn2">BOOK NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ************************
+      ----section LUXURY-LIVING-------
+      ************************ -->
+
+      <section class="luxury-living-section">
+        <div class="luxury-living grid grid-col--2">
+          <div class="luxury-text-container">
+            <p class="luxury-sub--heading">LUXURY LIVING</p>
+            <h1 class="luxury-general-heading">
+              Discover A Brand <br />Luxurious Hotel
+            </h1>
+            <p class="luxury-general-paragraph">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+              consequatur corrupti optio accusamus, repudiandae blanditiis et
+              tempore impedit. Temporibus, quo!
+            </p>
+            <div class="luxury-living-btn-container">
+              <div>
+                <button class="btn btn--1">OUR ROOMS</button>
+              </div>
+              <div>
+                <button class="btn btn--2">BOOK A ROOM</button>
+              </div>
+            </div>
+          </div>
+          <div class="luxury-photo"></div>
+        </div>
+      </section>
+
+      <!-- ************************
+      ----SECTION SERVICES-------
+      ************************ -->
+      <section id="services" class="services">
+        <div class="services-header">
+          <p class="bar-sub-heading">OUR SERVICES</p>
+          <h1 class="general-heading">Explore Our <span>SERVICES</span></h1>
+        </div>
+        <div class="services-container container">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-2x fa-hotel"></i>
+            </div>
+
+            <h3 class="service-heading">Rooms & Apartment</h3>
+
+            <p class="service-paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos a
+              sunt laboriosam.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-2x fa-utensils"></i>
+            </div>
+
+            <h3 class="service-heading">Food & Restaurant</h3>
+
+            <p class="service-paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos a
+              sunt laboriosam.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-2x fa-spa"></i>
+            </div>
+
+            <h3 class="service-heading">Spa & Fitness</h3>
+
+            <p class="service-paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos a
+              sunt laboriosam.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-2x fa-swimmer"></i>
+            </div>
+
+            <h3 class="service-heading">Sports & Gaming</h3>
+
+            <p class="service-paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos a
+              sunt laboriosam.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-2x fa-glass-cheers"></i>
+            </div>
+
+            <h3 class="service-heading">Event & Party</h3>
+
+            <p class="service-paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos a
+              sunt laboriosam.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-2x fa-dumbbell"></i>
+            </div>
+
+            <h3 class="service-heading">Gym & Yoga</h3>
+
+            <p class="service-paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos a
+              sunt laboriosam.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ************************
+      ----SECTION OUR TEAM-------
+      ************************ -->
+      <section class="our-team">
+        <div class="team-heading">
+          <p class="bar-sub-heading">OUR TEAM</p>
+          <h1 class="general-heading">Explore Our <span>STAFFS</span></h1>
+        </div>
+        <div class="container">
+          <div class="team-gallery">
+            <div class="team-photo-card">
+              <img src="img/team-1.jpg" alt="" />
+              <div class="team-social-media">
+                <div class="team-media-icon">
+                  <a href="">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </div>
+                <div class="team-media-icon">
+                  <a href="">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="team-media-icon">
+                  <a href="">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="team-gallery-text">
+                <h3>Full Name</h3>
+                <p>Designation</p>
+              </div>
+            </div>
+            <div class="team-photo-card">
+              <img src="img/team-2.jpg" alt="" />
+              <div class="team-social-media">
+                <div class="team-media-icon">
+                  <a href="">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </div>
+                <div class="team-media-icon">
+                  <a href="">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="team-media-icon">
+                  <a href="">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="team-gallery-text">
+                <h3>Full Name</h3>
+                <p>Designation</p>
+              </div>
+            </div>
+            <div class="team-photo-card">
+              <img src="img/team-3.jpg" alt="" />
+              <div class="team-social-media">
+                <div class="team-media-icon">
+                  <a href="">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </div>
+                <div class="team-media-icon">
+                  <a href="">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="team-media-icon">
+                  <a href="">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="team-gallery-text">
+                <h3>Full Name</h3>
+                <p>Designation</p>
+              </div>
+            </div>
+            <div class="team-photo-card">
+              <img src="img/team-4.jpg" alt="" />
+              <div class="team-social-media">
+                <div class="team-media-icon">
+                  <a href="">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </div>
+                <div class="team-media-icon">
+                  <a href="">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="team-media-icon">
+                  <a href="">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="team-gallery-text">
+                <h3>Full Name</h3>
+                <p>Designation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ***************************
+    ------SECTION FOOTER------
+    *************************** -->
+    <footer id="contact">
+      <div class="footer-subscription">
+        <div class="subscription-border--1">
+          <div class="subscription-border--2">
+            <div class="subscription-mail-box">
+              <div class="subscription-heading">
+                <h2 class="general-heading">
+                  Subscribe Our <span>NEWSLETTER</span>
+                </h2>
+              </div>
+              <form class="subscription-button-container">
+                <input
+                  class="subscription-mail"
+                  type="email"
+                  placeholder="Enter Your Mail"
+                />
+                <button class="subscription-submit-btn" type="submit">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer-subscribe-box"></div>
+        <div class="footer-info">
+          <div class="footer-logo">
+            <a href="#">
+              <h2>Roadside</h2>
+            </a>
+            <p>The place to make your journey memorable</p>
+          </div>
+          <div class="footer-contact">
+            <p class="general-sub-heading">CONTACT</p>
+            <div class="footer-contact--info">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Orio, Mars</span>
+            </div>
+            <div class="footer-contact--info">
+              <i class="fa-solid fa-phone"></i>
+              <span>+012 345 6789</span>
+            </div>
+            <div class="footer-contact--info">
+              <i class="fa-solid fa-envelope"></i>
+              <span>info@example.com</span>
+            </div>
+
+            <div class="footer-icon-container">
+              <a href="">
+                <div class="footer-icon">
+                  <i class="fa fa-facebook"></i>
+                </div>
+              </a>
+              <a href="">
+                <div class="footer-icon">
+                  <i class="fa fa-twitter"></i>
+                </div>
+              </a>
+              <a href="">
+                <div class="footer-icon">
+                  <i class="fa fa-youtube"></i>
+                </div>
+              </a>
+              <a href="">
+                <div class="footer-icon">
+                  <i class="fa fa-linkedin"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="footer-company">
+            <p class="general-sub-heading">COMPANY</p>
+            <div>
+              <div class="footer-company-text">
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="">About Us</a>
+              </div>
+              <div class="footer-company-text">
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="">Contact Us</a>
+              </div>
+              <div class="footer-company-text">
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="">Privacy Policy</a>
+              </div>
+
+              <div class="footer-company-text">
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="">Terms & Condition</a>
+              </div>
+
+              <div class="footer-company-text">
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="">Support</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-services">
+            <p class="general-sub-heading">SERVICES</p>
+            <div>
+              <div class="footer-company-text">
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="">Food & Restaurant</a>
+              </div>
+              <div class="footer-company-text">
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="">Spa & Fitness</a>
+              </div>
+
+              <div class="footer-company-text">
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="">Sports & Gaming</a>
+              </div>
+
+              <div class="footer-company-text">
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="">Event & Party</a>
+              </div>
+
+              <div class="footer-company-text">
+                <i class="fa-solid fa-chevron-right"></i>
+                <a href="">Gym & Yoga</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bar"></div>
+        <div class="footer-copyright">
+          <small>
+            &copy; <a href="">Roadside.com</a>, all Right Reseved. Designed by
+            hereIsRakib
+          </small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

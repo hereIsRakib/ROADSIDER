@@ -1,0 +1,188 @@
+/* *******************
+-----01 TYPOGRAPHY-----
+**********************
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights-
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights-
+Default: 1.5
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+
+- Letter spacing-
+-0.5px
+0.75px
+
+
+******************* */
+
+/* 
+*******************
+-----02 COLOR------
+*******************
+COLOR PALETE:
+
+#0F172B = nav bar
+#FEA116 = text-nav-bar
+#f4f9ff = hero-button
+#f2f9ff = hero-button-border
+#feb445 = hero-button
+#feaa2d =hero-button-border
+#f1f8ff = body-background color
+
+
+GRAYS: 
+#666565=body-text
+
+
+
+COLOR TINTS:
+
+
+
+******************* */
+
+/* *******************
+-----03 SHDOWS------
+**********************
+******************* */
+
+/* *******************
+-----04 BORDER RADIOUS------
+**********************
+1px,
+******************* */
+
+/* *******************
+-----05 WHITE SPACE------
+**********************
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+******************* */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "heebo", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #666565;
+  background-color: #f1f8ff;
+}
+
+.container {
+  width: 100%;
+  padding: 4.4rem 9.8rem;
+  margin: 0 auto;
+}
+
+.btn {
+  font-size: 1.6rem;
+  width: 19rem;
+  height: 6rem;
+  color: #fff;
+  border: none;
+  background-color: #fea116;
+  font-weight: 700;
+  box-shadow: 0 0px 1px 1px rgba(153, 153, 153, 0.5);
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #feb445;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #f1f8ff;
+}
+
+.grid {
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+.grid-col--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-col--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.general-heading {
+  font-size: 4rem;
+  color: #000;
+}
+
+.general-heading span {
+  color: #fea116;
+}
+.general-sub-heading {
+  position: relative;
+  color: #fea116;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.general-sub-heading::after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  top: 50%;
+  right: -55px;
+  margin-top: -1px;
+  background-color: #fea116;
+}
+
+.bar-sub-heading {
+  position: relative;
+  color: #fea116;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.bar-sub-heading::after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  top: 50%;
+  right: -55px;
+  margin-top: -1px;
+  background-color: #fea116;
+}
+
+.bar-sub-heading::before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  top: 50%;
+  left: -55px;
+  margin-top: -1px;
+  background-color: #fea116;
+}
